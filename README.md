@@ -1,27 +1,28 @@
-# Simple_Linux_Shell
-A simple linux shell written by C
-```This is a simple shell that can read and interpret commands(no more than 10 parameters), also has the capability to deal with many kinds of inputs.``` 
+## Simple_Linux_Shell
+#A simple linux shell written by C
 
-```functions:
+#This is a simple shell that can read and interpret commands(no more than 10 parameters), also has the capability to deal with many kinds of inputs.
 
-```w4118_sh.c: the main function, run() function(run the loop to access user's input) and generate_pipe() function(recursive function, which can pipe and fork).
+```functions```:
 
-```prompt.c: prompt function, which shows the prompt for the user.
+```w4118_sh.c```: the main function, run() function(run the loop to access user's input) and generate_pipe() function(recursive function, which can pipe and fork).
 
-```interpret_input.c: interpret user's input and translate it to parameters.
+```prompt.c```: prompt function, which shows the prompt for the user.
 
-```add_history.c: add items to history list.
+```interpret_input.c```: interpret user's input and translate it to parameters.
 
-```built_in: deal with the built_in commands(exit, cd , and history).
+```add_history.c```: add items to history list.
 
-```s2i.c: translate a string into an integer.
+```built_in```: deal with the built_in commands(exit, cd , and history).
 
-```clear_history: clear the history list.
+```s2i.c```: translate a string into an integer.
 
-```interpret_line: interpret a line with the delimtor.
+```clear_history```: clear the history list.
 
-```builtin_pipe:deal with the builtin commands in a pipe situation.
+```interpret_line```: interpret a line with the delimtor.
 
-```and the header: w4118_sh.h, which defines all the functions and macro definitions
+```builtin_pipe```: deal with the builtin commands in a pipe situation.
 
-```Makefile: make the binary file to generate and clean it. 
+```and the header```: w4118_sh.h, which defines all the functions and macro definitions
+
+```Makefile```: make the binary file to generate and clean it. 
