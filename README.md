@@ -5,7 +5,7 @@
 
 ```functions```:
 
-```w4118_sh.c```: the main function, run() function(run the loop to access user's input) and generate_pipe() function(recursive function, which can pipe and fork).
+```simple_sh.c```: the main function, run() function(run the loop to access user's input) and generate_pipe() function(recursive function, which can pipe and fork).
 
 ```prompt.c```: prompt function, which shows the prompt for the user.
 
@@ -23,6 +23,6 @@
 
 ```builtin_pipe```: deal with the builtin commands in a pipe situation.
 
-```and the header```: w4118_sh.h, which defines all the functions and macro definitions
+```and the header```: simple_sh.h, which defines all the functions and macro definitions
 
 ```Makefile```: make the binary file to generate and clean it. 
