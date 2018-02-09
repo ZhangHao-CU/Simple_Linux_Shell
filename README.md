@@ -1,7 +1,7 @@
-## Simple_Linux_Shell
-# A simple linux shell written by C
+# Simple_Linux_Shell
+## A simple linux shell written by C
 
-# This is a simple shell that can read and interpret commands(no more than 10 parameters), also has the capability to deal with many kinds of inputs.
+### This is a simple shell that can read and interpret commands(no more than 10 parameters), also has the capability to deal with many kinds of inputs.
 
 ```functions```:
 
